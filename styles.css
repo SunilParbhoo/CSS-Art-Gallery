@@ -1,0 +1,17 @@
+:root {
+  /* Ocean Blue Serenity Color Palette from https://coolors.co/palettes/popular/ocean */
+  --dark-deep-blue: #03045e;
+  --dark-mid-blue: #023e8a;
+  --dark-light-blue: #0077b6;
+  --med-deep-blue: #0096c7;
+  --med-mid-blue: #00b4d8;
+  --med-light-blue: #48cae4;
+  --sky-deep-blue: #90e0ef;
+  --sky-mid-blue: #ade8f4;
+  --sky-light-blue: #caf0f8;
+}
+
+body {
+  font-family: "Fredericka the Great", serif;
+  background: linear-gradient(to right bottom, var(--sky-deep-blue), var(--sky-mid-blue), var(--sky-light-blue)) no-repeat;
+}
