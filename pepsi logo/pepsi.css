@@ -5,3 +5,24 @@ body {
   align-items: center;
   background-image: linear-gradient(135deg, #00a6b7);
 }
+
+.pepsi {
+  height: 300px;
+  width: 300px;
+  background-color: #34588e;
+  border-radius: 50%;
+  border: 10px solid white;
+  position: relative;
+}
+
+.pepsi:before {
+  content: "";
+  position: absolute;
+  height: 400px;
+  width: 500px;
+  border-radius: 25%;
+  background-color: white;
+  top: -160px;
+  left: -240px;
+  transform: rotate(-18deg);
+}
