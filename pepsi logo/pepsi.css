@@ -26,3 +26,14 @@ body {
   left: -240px;
   transform: rotate(-18deg);
 }
+
+.pepsi:after {
+  content: "";
+  position: absolute;
+  height: 500px;
+  width: 550px;
+  border-radius: 50%;
+  background-color: #da473c;
+  top: -275px;
+  left: -300px;
+}
