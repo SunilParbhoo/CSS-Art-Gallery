@@ -13,6 +13,7 @@ body {
   border-radius: 50%;
   border: 10px solid white;
   position: relative;
+  overflow: hidden;
 }
 
 .pepsi:before {
