@@ -56,3 +56,13 @@ body {
   right: 15px;
   top: 15px;
 }
+
+.button {
+  position: absolute;
+  width: 30px;
+  height: 5px;
+  background-color: #009587;
+  border-radius: 60px;
+  left: 16px;
+  top: -5px;
+}
