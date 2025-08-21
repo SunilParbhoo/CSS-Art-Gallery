@@ -7,3 +7,11 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.coffee-mug {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  background-color: #3f2616;
+  border-radius: 50%;
+}
