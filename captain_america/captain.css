@@ -7,3 +7,10 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.c3 {
+  width: 260px;
+  height: 260px;
+  background-color: #ff4040;
+  border-radius: 50%;
+}
