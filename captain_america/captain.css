@@ -23,4 +23,14 @@ body {
   height: 210px;
   background-color: white;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c1 {
+  width: 150px;
+  height: 150px;
+  background-color: #ff4040;
+  border-radius: 50%;
 }
