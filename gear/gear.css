@@ -6,3 +6,10 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.gear {
+  width: 110px;
+  height: 110px;
+  background-color: #5dc59d;
+  border-radius: 50%;
+}
