@@ -34,3 +34,14 @@ body {
   left: 30px;
   top: -8px;
 }
+
+.line1:after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  left: 90px;
+  top: -8px;
+}
