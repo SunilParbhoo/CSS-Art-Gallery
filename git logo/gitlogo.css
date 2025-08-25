@@ -7,3 +7,11 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.git {
+  width: 150px;
+  height: 150px;
+  background-color: #f05033;
+  border-radius: 15px;
+  position: relative;
+}
