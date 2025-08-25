@@ -53,6 +53,7 @@ body {
   position: absolute;
   top: 70px;
   left: 30px;
+  transform: rotate(45deg);
 }
 
 .line2:before {
