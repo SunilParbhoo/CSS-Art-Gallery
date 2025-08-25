@@ -45,3 +45,12 @@ body {
   left: 90px;
   top: -8px;
 }
+
+.line2 {
+  width: 90px;
+  height: 12px;
+  background-color: white;
+  position: absolute;
+  top: 70px;
+  left: 30px;
+}
