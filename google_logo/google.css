@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -34,4 +38,15 @@ body {
   transform: rotate(45deg);
   border-radius: 50%;
   z-index: -1;
+}
+
+.line {
+  width: 80px;
+  height: 30px;
+  background-color: #3a7cec;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-bottom-right-radius: 15px;
 }
