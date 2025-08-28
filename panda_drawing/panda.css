@@ -82,3 +82,25 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
+
+.ear-left {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  background-color: black;
+  border-radius: 50%;
+  top: -30px;
+  left: -35px;
+  z-index: -1;
+}
+
+.ear-right {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  background-color: black;
+  border-radius: 50%;
+  top: -30px;
+  right: -35px;
+  z-index: -1;
+}
