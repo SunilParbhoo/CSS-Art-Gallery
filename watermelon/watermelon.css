@@ -1,9 +1,18 @@
 body {
-  /* background: ; */
-  height: 100vh;
   margin: 0;
   padding: 0;
+  height: 100vh;
+  background-color: #69506d;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.watermelon {
+  width: 320px;
+  height: 160px;
+  background-color: #fd6c64;
+  border-left: 20px solid #5af5b6;
+  border-bottom: 20px solid #5af5b6;
+  border-right: 20px solid #5af5b6;
 }
