@@ -12,8 +12,8 @@ body {
 
 .donut {
   position: relative;
-  width: 280px;
-  height: 280px;
+  width: 200px;
+  height: 200px;
 }
 
 .donut-body {
@@ -47,4 +47,41 @@ body {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+.face {
+  width: 32px;
+  height: 16px;
+  position: absolute;
+  border: 3px solid #003459;
+  border-top: 0;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  top: 44px;
+  left: 84px;
+}
+
+.face::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: #003459;
+  border-radius: 50%;
+  position: absolute;
+  top: -20px;
+  left: -16px;
+  box-shadow: 48px 0 #003459; /* the right eye*/
+}
+
+.highlight {
+  width: 40px;
+  height: 40px;
+  border: 8px solid white;
+  border-top: 0;
+  border-right: 0;
+  position: absolute;
+  left: 50px;
+  top: 105px;
+  border-bottom-left-radius: 50px;
+  opacity: 0.5;
 }
