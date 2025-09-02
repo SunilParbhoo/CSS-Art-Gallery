@@ -35,3 +35,16 @@ body {
   right: 3px;
   border-radius: 50%;
 }
+
+.donut-body::after {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  background-color: #fff09b;
+  border: 2px solid #003459;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
