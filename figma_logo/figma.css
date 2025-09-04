@@ -7,3 +7,32 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.logo {
+  width: 180px;
+  height: 270px;
+  background-color: blue;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.part {
+  width: 90px;
+  height: 90px;
+}
+
+.part-1 {
+  background-color: #ee4e2a;
+}
+.part-2 {
+  background-color: #fb7266;
+}
+.part-3 {
+  background-color: #a061fa;
+}
+.part-4 {
+  background-color: #2ebdfa;
+}
+.part-5 {
+  background-color: #00ce84;
+}
