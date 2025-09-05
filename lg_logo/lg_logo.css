@@ -46,3 +46,13 @@ body {
   top: 120px;
   left: 130px;
 }
+
+.line3 {
+  position: absolute;
+  width: 20px;
+  height: 250px;
+  background-color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
