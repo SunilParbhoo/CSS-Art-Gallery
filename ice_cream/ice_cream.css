@@ -11,3 +11,11 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.ice-cream {
+  background-color: #9cd2a2;
+  width: 250px;
+  height: 400px;
+  border-radius: 45% 45% 10% 10%;
+  position: relative;
+}
