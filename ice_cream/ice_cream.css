@@ -49,13 +49,26 @@ body {
 .melting {
   width: 30px;
   height: 60px;
-  background-color: white;
+  background-color: #9cd2a2;
   border-radius: 30px;
   position: absolute;
   bottom: 0;
   left: 50px;
+  animation: melting 6s ease infinite;
+  animation-delay: 3s;
+  z-index: -10;
 }
 
 .melting2 {
   left: 180px;
+  animation-delay: 1s;
+}
+
+@keyframes melting {
+  0% {
+    bottom: 10px;
+  }
+  100% {
+    bottom: -30px;
+  }
 }
