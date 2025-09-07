@@ -31,3 +31,17 @@ body {
   transform: translateX(-50%);
   z-index: -1;
 }
+
+.side {
+  height: 240px;
+  width: 60px;
+  background-color: #a5ddac;
+  border-radius: 40%;
+  position: absolute;
+  left: 40px;
+  top: 100px;
+}
+
+.side2 {
+  left: 150px;
+}
