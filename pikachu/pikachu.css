@@ -75,4 +75,15 @@ body {
   position: absolute;
   left: 36%;
   top: 50%;
+  overflow: hidden;
+}
+
+.tongue {
+  width: 64px;
+  height: 64px;
+  background: #e97b7c;
+  border-radius: 50%;
+  position: absolute;
+  top: 61%;
+  left: 16%;
 }
