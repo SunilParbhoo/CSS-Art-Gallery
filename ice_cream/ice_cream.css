@@ -72,3 +72,21 @@ body {
     bottom: -30px;
   }
 }
+
+.bite {
+  height: 120px;
+  width: 120px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  left: 150px;
+}
+
+.bite2 {
+  left: 67px;
+  top: -15px;
+}
+
+.bite3 {
+  left: -10px;
+}
