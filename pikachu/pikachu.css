@@ -11,3 +11,10 @@ body {
   align-items: center;
   background-color: #fcd458;
 }
+
+.container {
+  position: relative;
+  width: 350px;
+  height: 600px;
+  background-color: green;
+}
