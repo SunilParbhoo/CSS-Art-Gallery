@@ -40,6 +40,7 @@ body {
   position: absolute;
   left: 44%;
   top: 13%;
+  animation: eyes 2s ease infinite;
 }
 
 .nose {
@@ -106,4 +107,16 @@ body {
   position: absolute;
   top: 61%;
   left: 16%;
+}
+
+@keyframes eyes {
+  0% {
+    left: 44%;
+  }
+  50% {
+    left: 15%;
+  }
+  100% {
+    left: 44%;
+  }
 }
