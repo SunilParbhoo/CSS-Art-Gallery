@@ -76,17 +76,28 @@ body {
 .bite {
   height: 120px;
   width: 120px;
-  background-color: white;
+  background-color: #2a2e46;
   border-radius: 50%;
   position: absolute;
   left: 150px;
+  opacity: 0;
+  animation: bite 1s forwards;
+  animation-delay: 2s;
 }
 
 .bite2 {
   left: 67px;
   top: -15px;
+  animation-delay: 4s;
 }
 
 .bite3 {
   left: -10px;
+  animation-delay: 6s;
+}
+
+@keyframes bite {
+  100% {
+    opacity: 1;
+  }
 }
