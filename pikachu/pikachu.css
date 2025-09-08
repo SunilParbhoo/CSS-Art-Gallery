@@ -42,3 +42,13 @@ body {
   left: 44%;
   top: 13%;
 }
+
+.nose {
+  width: 16px;
+  height: 16px;
+  background-color: #000;
+  position: absolute;
+  left: 47%;
+  top: 44%;
+  border-radius: 8px 8px 16px 16px;
+}
