@@ -16,7 +16,6 @@ body {
   position: relative;
   width: 350px;
   height: 600px;
-  background-color: green;
 }
 
 .eye {
@@ -76,6 +75,27 @@ body {
   left: 36%;
   top: 50%;
   overflow: hidden;
+}
+
+.mouth::before {
+  content: "";
+  width: 64px;
+  height: 64px;
+  background: #fcd458;
+  border-radius: 50%;
+  position: absolute;
+  top: -39%;
+  left: 46%;
+}
+.mouth::after {
+  content: "";
+  width: 64px;
+  height: 64px;
+  background: #fcd458;
+  border-radius: 50%;
+  position: absolute;
+  top: -39%;
+  left: -19%;
 }
 
 .tongue {
