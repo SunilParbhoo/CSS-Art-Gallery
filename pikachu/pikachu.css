@@ -18,3 +18,27 @@ body {
   height: 600px;
   background-color: green;
 }
+
+.eye {
+  width: 64px;
+  height: 64px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+  left: 13%;
+}
+
+.eye.-r {
+  left: 65%;
+}
+
+.eyeball {
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: 44%;
+  top: 13%;
+}
