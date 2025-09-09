@@ -94,3 +94,14 @@ body {
   left: 36%;
   border-radius: 50%;
 }
+
+.nose {
+  position: absolute;
+  width: 75px;
+  height: 120px;
+  background: #be845f;
+  z-index: 4;
+  left: 37%;
+  top: 45%;
+  border-radius: 50px;
+}
