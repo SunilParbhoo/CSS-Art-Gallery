@@ -16,7 +16,6 @@ body {
   position: relative;
   width: 600px;
   height: 420px;
-  background-color: red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,4 +103,24 @@ body {
   left: 37%;
   top: 45%;
   border-radius: 50px;
+}
+
+.hair-left {
+  position: absolute;
+  width: 60px;
+  height: 57px;
+  background: #a6becf;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  top: -8%;
+  left: 30%;
+}
+
+.hair-right {
+  position: absolute;
+  width: 60px;
+  height: 57px;
+  background: #a6becf;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  top: -4%;
+  left: 48%;
 }
