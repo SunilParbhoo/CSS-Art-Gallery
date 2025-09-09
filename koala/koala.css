@@ -66,3 +66,31 @@ body {
   background: #819caf;
   border-radius: 50%;
 }
+
+.eye {
+  position: absolute;
+  width: 90px;
+  height: 95px;
+  background-color: white;
+  z-index: 3;
+  top: 25%;
+  border-radius: 50%;
+}
+
+.eye-left {
+  left: 21%;
+}
+
+.eye-right {
+  right: 21%;
+}
+
+.pupil {
+  position: absolute;
+  width: 25px;
+  height: 29px;
+  background: #27354a;
+  top: 35%;
+  left: 36%;
+  border-radius: 50%;
+}
