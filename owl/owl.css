@@ -11,3 +11,19 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.container {
+  position: relative;
+  width: 600px;
+  height: 500px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+}
+
+.head {
+  position: absolute;
+  width: 230px;
+  height: 130px;
+  background-color: #6d4b27;
+}
