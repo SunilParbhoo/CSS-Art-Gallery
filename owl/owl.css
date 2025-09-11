@@ -55,3 +55,21 @@ body {
 .eye-container.right {
   right: 185px;
 }
+
+.eye-container::before {
+  content: "";
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  background-color: white;
+  border-radius: 50%;
+  bottom: 7px;
+}
+
+.eye-container.left::before {
+  right: -5px;
+}
+
+.eye-container.right::before {
+  left: -5px;
+}
