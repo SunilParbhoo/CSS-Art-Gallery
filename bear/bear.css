@@ -38,6 +38,7 @@ body {
   background: #d7e2e8;
   border: 15px solid #faffce;
   border-radius: 50%;
+  z-index: 3;
 }
 
 .ear-left {
@@ -46,4 +47,13 @@ body {
 
 .ear-right {
   right: -15%;
+}
+
+.head-copy {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #faffce;
+  border-radius: 90px 90px 0 0;
+  z-index: 4;
 }
