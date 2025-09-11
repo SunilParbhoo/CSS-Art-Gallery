@@ -73,3 +73,21 @@ body {
 .eye-container.right::before {
   left: -5px;
 }
+
+.eye {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background: #000;
+  border-radius: 50%;
+  border: 10px solid #f0ae1b;
+  top: 20px;
+}
+
+.left-eye {
+  left: 30px;
+}
+
+.right-eye {
+  right: 30px;
+}
