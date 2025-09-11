@@ -134,3 +134,48 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
+
+.foot {
+  position: absolute;
+  height: 40px;
+  width: 15px;
+  background: #f0ae1b;
+  top: 420px;
+  border-radius: 50%;
+  border: 1px solid #9e784d;
+}
+
+.left-foot {
+  left: 220px;
+}
+
+.right-foot {
+  right: 220px;
+}
+
+.foot::before,
+.foot::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #f0ae1b;
+  border-radius: 50%;
+  border: 1px solid #9e784d;
+}
+
+.left-foot::before {
+  left: 15px;
+}
+
+.right-foot::before {
+  right: 15px;
+}
+
+.left-foot::after {
+  left: 30px;
+}
+
+.right-foot::after {
+  right: 30px;
+}
