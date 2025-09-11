@@ -179,3 +179,12 @@ body {
 .right-foot::after {
   right: 30px;
 }
+
+.branch {
+  position: absolute;
+  width: 400px;
+  height: 15px;
+  background: #fff;
+  bottom: 25px;
+  border-radius: 10px;
+}
