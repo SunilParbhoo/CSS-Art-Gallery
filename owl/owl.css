@@ -19,6 +19,7 @@ body {
   background-color: green;
   display: flex;
   justify-content: center;
+  z-index: -10;
 }
 
 .head {
@@ -100,4 +101,36 @@ body {
   top: 160px;
   clip-path: polygon(0 0, 100% 0, 60% 100%, 40% 100%);
   border-radius: 50%;
+}
+
+.wings {
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  background: #6d4b27;
+  top: 150px;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.wings::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 310px;
+  background: #9e784d;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.wings::after {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 230px;
+  background: #fff;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
 }
