@@ -76,3 +76,43 @@ body {
 .right-eye {
   right: 25%;
 }
+
+.muzzle {
+  position: absolute;
+  width: 72px;
+  height: 75px;
+  background: #d1e1e2;
+  z-index: 7;
+  border-radius: 45%;
+  top: 28%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nose {
+  position: absolute;
+  background: #22293a;
+  width: 32px;
+  height: 20px;
+  border-radius: 40%;
+  top: 15%;
+}
+
+.bottom-nose {
+  position: absolute;
+  width: 7px;
+  height: 30px;
+  background: #22293a;
+}
+
+.mouth {
+  position: absolute;
+  width: 36px;
+  height: 7px;
+  background: #22293a;
+  top: 65%;
+  border-radius: 10px;
+}
