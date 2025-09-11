@@ -10,3 +10,40 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.container {
+  position: relative;
+  width: 450px;
+  height: 400px;
+  background: #3d98b7;
+  border-radius: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.head {
+  position: absolute;
+  width: 240px;
+  height: 300px;
+  background: #faffce;
+  border-radius: 90px 90px 0 0;
+}
+
+.ear-left,
+.ear-right {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background: #d7e2e8;
+  border: 15px solid #faffce;
+  border-radius: 50%;
+}
+
+.ear-left {
+  left: -15%;
+}
+
+.ear-right {
+  right: -15%;
+}
