@@ -57,3 +57,22 @@ body {
   border-radius: 90px 90px 0 0;
   z-index: 4;
 }
+
+.left-eye,
+.right-eye {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background: #2a3144;
+  z-index: 6;
+  border-radius: 50%;
+  top: 25%;
+}
+
+.left-eye {
+  left: 25%;
+}
+
+.right-eye {
+  right: 25%;
+}
