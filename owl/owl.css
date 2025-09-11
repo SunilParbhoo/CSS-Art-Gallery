@@ -91,3 +91,13 @@ body {
 .right-eye {
   right: 30px;
 }
+
+.beak {
+  position: absolute;
+  width: 45px;
+  height: 60px;
+  background: #f0ae1b;
+  top: 160px;
+  clip-path: polygon(0 0, 100% 0, 60% 100%, 40% 100%);
+  border-radius: 50%;
+}
