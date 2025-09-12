@@ -43,3 +43,13 @@ body {
   top: 25px;
   left: 75px;
 }
+
+.nose {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background: #f7880f;
+  top: 35px;
+  left: 49px;
+  clip-path: polygon(50% 100%, 30% 0, 70% 0);
+}
