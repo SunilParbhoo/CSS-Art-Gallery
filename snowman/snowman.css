@@ -24,3 +24,22 @@ body {
   top: 100px;
   left: 110px;
 }
+
+.eye-left,
+.eye-right {
+  position: relative;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #000;
+}
+
+.eye-left {
+  top: 40px;
+  left: 35px;
+}
+
+.eye-right {
+  top: 25px;
+  left: 75px;
+}
