@@ -7,3 +7,20 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.snowman {
+  width: 340px;
+  height: 500px;
+  position: relative;
+  background: greenyellow;
+}
+
+.head {
+  position: relative;
+  height: 120px;
+  width: 120px;
+  background: #fff;
+  border-radius: 50%;
+  top: 100px;
+  left: 110px;
+}
