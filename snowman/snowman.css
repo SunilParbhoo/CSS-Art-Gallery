@@ -100,3 +100,43 @@ body {
   top: 60px;
   left: 90px;
 }
+
+.hand-left {
+  position: relative;
+  width: 100px;
+  height: 5px;
+  background: #83282a;
+  bottom: 68px;
+  right: 67px;
+  transform: rotate(25deg);
+}
+
+.hand-left div {
+  position: relative;
+  width: 30px;
+  height: 5px;
+  background: #83282a;
+  bottom: 10px;
+  left: 5px;
+  transform: rotate(45deg);
+}
+
+.hand-right {
+  position: relative;
+  width: 100px;
+  height: 5px;
+  background: #83282a;
+  bottom: 73px;
+  left: 168px;
+  transform: rotate(-25deg);
+}
+
+.hand-right div {
+  position: relative;
+  width: 30px;
+  height: 5px;
+  background: #83282a;
+  bottom: 10px;
+  left: 65px;
+  transform: rotate(-45deg);
+}
