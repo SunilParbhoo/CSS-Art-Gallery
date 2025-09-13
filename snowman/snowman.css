@@ -12,7 +12,6 @@ body {
   width: 340px;
   height: 500px;
   position: relative;
-  background: greenyellow;
 }
 
 .head {
@@ -139,4 +138,36 @@ body {
   bottom: 10px;
   left: 65px;
   transform: rotate(-45deg);
+}
+
+.scarf {
+  position: relative;
+  width: 35px;
+  height: 50px;
+  background: #e63c33;
+  bottom: 90px;
+  left: 195px;
+  transform: rotate(-15deg);
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+}
+
+.scarf2 {
+  position: relative;
+  width: 120px;
+  height: 35px;
+  background: #e63c33;
+  bottom: 170px;
+  left: 107px;
+  border-radius: 10px;
+}
+
+.scarf3 {
+  position: relative;
+  width: 35px;
+  height: 80px;
+  background: #e63c33;
+  bottom: 185px;
+  left: 182px;
+  transform: rotate(-10deg);
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
 }
