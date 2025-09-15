@@ -39,3 +39,31 @@ body {
   border: 2px solid #000;
   top: 16px;
 }
+
+.face {
+  position: absolute;
+  width: 112px;
+  height: 112px;
+  background: #fce5c3;
+  border-radius: 48px;
+  border: 2px solid #000;
+  top: 32px;
+}
+
+.face::before,
+.face::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 48px;
+  background: #000;
+  top: 32px;
+}
+
+.face::before {
+  left: 30px;
+}
+
+.face::after {
+  left: 76px;
+}
