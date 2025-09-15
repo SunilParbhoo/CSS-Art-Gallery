@@ -10,3 +10,32 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.container {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  background: blue;
+  display: flex;
+  justify-content: center;
+}
+
+.head-top {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background: #e57299;
+  border-radius: 50%;
+  top: -10px;
+  border: 2px solid #000;
+}
+
+.head {
+  position: absolute;
+  width: 144px;
+  height: 144px;
+  background: #fff;
+  border-radius: 64px 64px 56px 56px;
+  border: 2px solid #000;
+  top: 16px;
+}
