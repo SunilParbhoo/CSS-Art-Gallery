@@ -157,3 +157,43 @@ body {
   border: 2px solid #000;
   transform: rotate(-22deg);
 }
+
+.left-leg,
+.right-leg {
+  position: absolute;
+  width: 16px;
+  height: 56px;
+  background: #fff;
+  top: 256px;
+  border: 2px solid #000;
+}
+
+.left-leg {
+  left: 144px;
+  transform: rotate(3deg);
+}
+
+.right-leg {
+  left: 184px;
+  transform: rotate(-3deg);
+}
+
+.left-foot,
+.right-foot {
+  position: absolute;
+  width: 40px;
+  height: 24px;
+  background: #e57299;
+  border-radius: 32px;
+  border: 2px solid #000;
+  top: 304px;
+  z-index: 10;
+}
+
+.left-foot {
+  left: 130px;
+}
+
+.right-foot {
+  left: 175px;
+}
