@@ -15,7 +15,6 @@ body {
   position: absolute;
   width: 350px;
   height: 350px;
-  background: blue;
   display: flex;
   justify-content: center;
 }
@@ -60,6 +59,19 @@ body {
   height: 48px;
   background: #000;
   top: 32px;
+  animation: eyes 3s 2s ease infinite;
+}
+
+@keyframes eyes {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(0.2);
+  }
+  100% {
+    transform: scaleY(1);
+  }
 }
 
 .face::before {
@@ -130,6 +142,19 @@ body {
   border-radius: 50%;
   border: 2px solid #000;
   z-index: 15;
+  animation: wave 5s ease infinite;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
 }
 
 .left-hand::before {
