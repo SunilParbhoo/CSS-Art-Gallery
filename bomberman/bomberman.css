@@ -38,6 +38,7 @@ body {
   border-radius: 64px 64px 56px 56px;
   border: 2px solid #000;
   top: 16px;
+  z-index: 5;
 }
 
 .face {
@@ -48,6 +49,7 @@ body {
   border-radius: 48px;
   border: 2px solid #000;
   top: 32px;
+  z-index: 5;
 }
 
 .face::before,
@@ -66,4 +68,15 @@ body {
 
 .face::after {
   left: 76px;
+}
+
+.body {
+  position: absolute;
+  width: 96px;
+  height: 112px;
+  background: #7878ac;
+  border-radius: 160px 160px 144px 144px;
+  top: 148px;
+  border: 2px solid #000;
+  z-index: 4;
 }
