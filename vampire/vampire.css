@@ -56,3 +56,63 @@ body {
 .hair::after {
   right: 1%;
 }
+
+.left-eye,
+.right-eye {
+  position: absolute;
+  width: 115px;
+  height: 115px;
+  background: #fff;
+  top: 30%;
+  border-radius: 50%;
+}
+
+.left-eye {
+  left: 18%;
+}
+
+.right-eye {
+  right: 18%;
+}
+
+.left-eye::before,
+.right-eye::before {
+  content: "";
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  background: red;
+  border-radius: 50%;
+  left: 30%;
+  top: 20%;
+}
+
+.left-eye::after,
+.right-eye::after {
+  content: "";
+  position: absolute;
+  height: 58px;
+  width: 58px;
+  background: #000;
+  border-radius: 50%;
+  left: 38%;
+  top: 20%;
+}
+
+.left-eye .brow,
+.right-eye .brow {
+  position: absolute;
+  width: 140px;
+  height: 50px;
+  background: #edd9f0;
+  top: -5%;
+  left: -10%;
+  z-index: 10;
+}
+
+.left-eye .brow {
+  transform: rotate(15deg);
+}
+.right-eye .brow {
+  transform: rotate(-15deg);
+}
