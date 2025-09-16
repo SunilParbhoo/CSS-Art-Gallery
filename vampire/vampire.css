@@ -20,3 +20,39 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.head {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  background: #edd9f0;
+  border-radius: 50%;
+  top: 10%;
+  overflow: hidden;
+}
+
+.hair {
+  position: absolute;
+  width: 450px;
+  height: 135px;
+  background: #333;
+}
+
+.hair::before,
+.hair::after {
+  content: "";
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background: #edd9f0;
+  border-radius: 50%;
+  top: 50%;
+}
+
+.hair::before {
+  left: 1%;
+}
+
+.hair::after {
+  right: 1%;
+}
