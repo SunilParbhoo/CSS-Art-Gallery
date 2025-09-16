@@ -116,3 +116,35 @@ body {
 .right-eye .brow {
   transform: rotate(-15deg);
 }
+
+.nose {
+  position: absolute;
+  width: 44px;
+  height: 22px;
+  /* background: blue; */
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+
+.nose::before {
+  content: "";
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  background: #333;
+  bottom: 0;
+  border-radius: 50%;
+}
+
+.nose::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #edd9f0;
+  bottom: 2px;
+  left: 2px;
+  border-radius: 50%;
+}
