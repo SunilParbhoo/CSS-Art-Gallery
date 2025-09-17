@@ -180,3 +180,23 @@ body {
   left: 2px;
   border-radius: 50%;
 }
+
+.left-tooth,
+.right-tooth {
+  position: absolute;
+  width: 36px;
+  height: 45px;
+  background: #fff;
+  top: 71%;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+}
+
+.left-tooth {
+  left: 35%;
+  transform: rotate(-5deg);
+}
+
+.right-tooth {
+  right: 35%;
+  transform: rotate(5deg);
+}
