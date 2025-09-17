@@ -12,6 +12,68 @@
 }
 
 body {
+  /* height: 100vh; */
   font-family: "Fredericka the Great", serif;
-  background: linear-gradient(to right bottom, var(--sky-deep-blue), var(--sky-mid-blue), var(--sky-light-blue)) no-repeat;
+  background: linear-gradient(to right, var(--sky-deep-blue), var(--sky-mid-blue), var(--sky-light-blue));
 }
+
+h1 {
+  color: var(--dark-deep-blue);
+}
+
+.cards {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 375px;
+  width: 300px;
+  background-color: var(--med-light-blue);
+  border-radius: 25px;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 2px 2px 5px var(--med-deep-blue);
+  transition: 0.25s;
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 5px var(--med-deep-blue);
+  transform: translateY(-5px);
+}
+
+.card-title {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: var(--med-light-blue);
+}
+
+.card-content {
+  height: 100%;
+  width: 100%;
+}
+
+.card-content iframe {
+  height: 100%;
+  width: 100%;
+  /* border: 0; */
+  transform: scale(0.8);
+  transform-origin: top left;
+  width: 125%;
+  height: 115%;
+  aspect-ratio: 16/9;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-deep-blue);
+  text-shadow: 1px 1px 1px var(--sky-deep-blue), 2px 2px var(--sky-mid-blue), 3px 3px var(--sky-light-blue);
+}
+
+/* TODO: change this from using iframes to using a static image of all the pages; this will be significantly more performant and easier to style */
