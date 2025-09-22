@@ -65,3 +65,47 @@ body {
   width: 2px;
   transform: translate(-50%, -100%) rotate(-40deg);
 }
+
+.clock-ear-left {
+  height: 30px;
+  width: 60px;
+  background-color: #5aa668;
+  position: absolute;
+  left: -38px;
+  top: -12px;
+  border-radius: 90px 90px 0 0;
+  transform: rotate(-50deg);
+}
+
+.clock-ear-left::after {
+  content: "";
+  width: 15px;
+  height: 8px;
+  background-color: #9d374f;
+  position: absolute;
+  top: -9px;
+  left: 23px;
+  border-radius: 90px 90px 0 0;
+}
+
+.clock-ear-right {
+  height: 30px;
+  width: 60px;
+  background-color: #5aa668;
+  position: absolute;
+  right: -38px;
+  top: -12px;
+  border-radius: 90px 90px 0 0;
+  transform: rotate(50deg);
+}
+
+.clock-ear-right::after {
+  content: "";
+  width: 15px;
+  height: 8px;
+  background-color: #9d374f;
+  position: absolute;
+  top: -9px;
+  right: 23px;
+  border-radius: 90px 90px 0 0;
+}
