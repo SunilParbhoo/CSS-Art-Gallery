@@ -107,3 +107,17 @@ body {
   transform: rotate(-11deg);
   border-left: 1px solid black;
 }
+
+.nose {
+  position: absolute;
+  width: 60px;
+  height: 32px;
+  background-color: #fed90f;
+  top: 175px;
+  left: 130px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
