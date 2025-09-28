@@ -126,7 +126,7 @@ body {
   position: absolute;
   width: 115px;
   height: 120px;
-  background-color: blue;
+  background-color: #d1b271;
   top: 207px;
   left: 60px;
   border-radius: 50%;
@@ -137,7 +137,7 @@ body {
   position: absolute;
   width: 20px;
   height: 30px;
-  background-color: beige;
+  background-color: #d1b271;
   top: 62px;
   left: 98px;
   border-radius: 50%;
@@ -149,7 +149,7 @@ body {
   position: absolute;
   width: 120px;
   height: 60px;
-  background-color: white;
+  background-color: #d1b271;
   top: 20px;
   left: 30px;
   border-radius: 60%;
@@ -161,7 +161,7 @@ body {
   position: absolute;
   width: 35px;
   height: 48px;
-  background-color: pink;
+  background-color: #d1b271;
   top: 230px;
   left: 165px;
   border-radius: 10%;
@@ -173,7 +173,7 @@ body {
   position: absolute;
   width: 60px;
   height: 30px;
-  background-color: red;
+  background-color: #d1b271;
   top: 200px;
   left: 130px;
   border-right: 1px solid black;
@@ -184,7 +184,7 @@ body {
   position: absolute;
   width: 30px;
   height: 30px;
-  background-color: brown;
+  background-color: #d1b271;
   top: 260px;
   left: 80px;
 }
