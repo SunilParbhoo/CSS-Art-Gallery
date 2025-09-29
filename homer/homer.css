@@ -188,3 +188,15 @@ body {
   top: 260px;
   left: 80px;
 }
+
+.neck {
+  position: absolute;
+  width: 125px;
+  height: 150px;
+  background-color: #fed90f;
+  top: 200px;
+  left: 28px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  transform: rotate(2deg);
+}
